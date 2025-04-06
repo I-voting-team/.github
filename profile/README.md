@@ -12,13 +12,9 @@ Kodlarımız, `i-vote-app` isimli private repository'de barındırılmaktadır.
 
 ## Teknik Detaylar
 
+- **Frontend (Mobil)**: React Native
 - **Backend**: Node.js & PostgreSQL
-- **Altyapı (Infra)**:  
-  - AWS üzerinde:
-    - RDS (veritabanı)
-    - ALB (Application Load Balancer)
-    - ECS + EC2 (container orkestrasyonu)
-  - Terraform ile altyapı kod olarak yönetiliyor (IaC)
+- **Altyapı (Infra)**: AWS & Terraform (IaC)  
 - **CI/CD**:  
   - `.github/workflows` altında yapılandırılmış GitHub Actions pipeline’ları ile sürekli entegrasyon ve dağıtım (CI/CD) süreçleri
 
